@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+/* formatting code
+color palette:
+olive green #042608
+grass green #2A5C0B
+light green #808F12
+cream #FAEDD9
+red #EA2A15 
+Fonts:
+font-family: 'Raleway', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Righteous', cursive;
+*/
+body {
+    margin:0;
+    text-align:center;
+    background-color:#042608;
+    font-family: 'Raleway', sans-serif;
+    color:#FAEDD9;
+    font-size:14px;
+    }
+table {
+    width:100%;
+    
+}
+td {
+    padding:5px;
+    vertical-align: middle;
+    text-align: center
+}
+td:hover {
+    background-color:#808F12;
+    color:#000000;
+}
+h4 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size:1.25em;
+}
+#tagline {
+    background-color:#2A5C0B;
+    }
+p a {
+    color:#FAEDD9;
+}
+p a:visited {
+    color:#EA2A15;
+}
+p a:hover {
+    color:#FAEDD9;
+    background-color:#EA2A15;
+}
+ul {
+    text-align: center;
+  list-style-type:none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+    border-right: 1px solid #000000;
+}
+
+li a {
+  display:block;
+  color: #FAEDD9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+li a:hover {
+  background-color: #2A5C0B;
+}
+.active {
+  background-color: #4CAF50;
+}
+ul .footer {
+    float:right;
+}
+#claim {
+    float:left
+}
+#claim a:hover {
+    background-color:#000000;
+}
+ul.topnav {
+  text-align: center;
+  list-style-type:none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.topnav li {float:left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 767px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+ul.bottomnav {
+  text-align: center;
+  list-style-type:none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.bottomnav li {float:right;}
+
+ul.bottomnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.bottomnav li.left {float: left;}
+
+@media screen and (max-width: 767px) {
+  ul.bottomnav li#claim, 
+  ul.bottomnav li {float: none;}
+}

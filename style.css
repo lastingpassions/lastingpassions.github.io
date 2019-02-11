@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+/* formatting code
+color palette:
+olive green #042608
+grass green #2A5C0B
+light green #808F12
+cream #FAEDD9
+red #EA2A15 
+Fonts:
+font-family: 'Raleway', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Righteous', cursive;
+*/
+body {
+    margin:0;
+    text-align:center;
+    background-color:#042608;
+    font-family: 'Raleway', sans-serif;
+    color:#FAEDD9;
+    font-size:14px;
+    }
+p {
+    margin-left:5px;
+    margin-right:5px;
+}
+table {
+    width:100%;
+    
+}
+td {
+    padding:5px;
+    vertical-align: middle;
+    text-align: center
+}
+td:hover {
+    background-color:#808F12;
+    color:#000000;
+}
+h4 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size:1.25em;
+}
+#tagline {
+    background-color:#2A5C0B;
+    }
+p a {
+    color:#FAEDD9;
+}
+p a:visited {
+    color:#EA2A15;
+}
+p a:hover {
+    color:#FAEDD9;
+    background-color:#EA2A15;
+}
+
+li.bottomnav{
+  float: left;
+    border-right: 1px solid #000000;
+}
+
+li a {
+  display:block;
+  color: #FAEDD9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+li a:hover {
+  background-color: #2A5C0B;
+}
+.active {
+  background-color: #4CAF50;
+}
+ul .footer {
+    float:right;
+}
+#claim {
+    float:left
+}
+#claim a:hover {
+    background-color:#000000;
+}
+ul.bottomnav {
+  text-align: center;
+  list-style-type:none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #000000;
+    position:relative;
+    bottom:0;
+}
+
+ul.bottomnav li {float:right;}
+
+ul.bottomnav li a {
+  display: block;
+  color: #FAEDD9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.bottomnav li.left {float: left;}
+
+@media screen and (max-width: 767px) {
+  ul.bottomnav li#claim, 
+  ul.bottomnav li {float: none;}
+}
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    font-family: 'Righteous', cursive;
+  background-color: #000000;
+   color: #FAEDD9;
+  overflow: hidden;
+    position:sticky;
+    top:0;
+    padding:6px;
+    box-shadow: 0 2px 5px 0 rgba(0.0.0.16)
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FAEDD9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #808F12;
+  color: #FAEDD9;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #2A5C0B;
+  color: #FAEDD9;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+} 
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 767px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 767px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
+div img {
+    background-color: #FAEDD9;
+    padding:2px;
+        margin:3px;
+}
+header img {
+    background-color: #042608;
+}
+a.img:hover{
+    border:2px solid #FAEDD9;
+}
+form{
+    margin:10px;
+}
+input[type=text], [type=email]{
+    width:50%;
+    border:2px solid #EA2A15 ;
+    padding:2px;
+}
+select{
+    width:50.5%;
+    border:3px solid #EA2A15 ;
+    padding: 2px;
+}
+textarea {
+    width:50%;
+    min-height: 200px;
+    overflow-y:scroll;
+    border:2px solid #EA2A15 ;
+    font-family: 'Raleway', sans-serif;
+    padding:2px;
+}
+.topscreen{
+    background-color: #042608;
+    position: sticky;
+    top:0;
+}
